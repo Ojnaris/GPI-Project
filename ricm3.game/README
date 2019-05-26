@@ -1,0 +1,87 @@
+
+This is the README for the final Game project
+for Info3 students at Polytech Grenoble.
+
+During a first week, you are given the opportunity to build up
+your team and learn the necessary skills and knowlege to create
+your own game during the next three week.
+
+At the end of this first week, you are to use this project as a basis
+to develop a Mario-like game.
+
+During the next three weeks, you will reuse the same framework to design
+and develop your own game.
+
+=====================================================================
+A Tour of What is Given to You
+=====================================================================
+
+You will see two source folders:
+
+  - game.framework
+	- game.sample
+
+The source folder "game.framework" is the given framework
+you will use to develop your game. It is based on Swing,
+with added extras for game development:
+
+	- double-buffering for the game canvas
+	- 24fps repaints
+	- time ticks at 1ms
+	- model-view-controller architecture
+
+The source folder "game.sample" provides you with
+the fundamental building blocks for a game:
+
+		- animations
+		- sprites
+		- music
+		- buttons
+
+The first step is to browse the code of the sample game
+and understand how it works, based on the given framework.
+
+=====================================================================
+A Mario-like Game
+=====================================================================
+
+You will design and code a Mario-like game, but keep it simple since
+you only have two days. You have all the needed basic blocks.
+
+Your Mario-like game will have the following features:
+
+  - played from a side view, with 2D representation.
+  - a simple flat terrain
+ 	- a Mario character that can move left or right
+  - ghosts, hunting Mario
+	- life points for Mario and Ghost
+	- Mario can shoot at ghosts
+  - cool background music
+	- specific sounds like explosions or loss of life points
+
+You may also consider:
+  - Mario will also be able to jump while moving left or right
+	- adding boulders to your terrain
+	- Mario can jump on/over boulders, ghosts can go through them
+	- bonuses or life points
+
+The second step is to design your Mario-like game, following
+the same software architecture: model, view, and controller.
+
+The given code follows one of the simplest designs for
+a model-view-controller software architecture. We did so
+to keep the design and the code rather simple and easy to
+understand. You may have to consider a more complex design
+for your game.
+
+We strongly suggests that you think ahead for a Gantt diagram
+of the tasks needed to develop features. Have a plan on how to
+progress and incrementally add and test features.
+
+Use Git and use branches for different tasks. Using and learning
+Git is important, remember that you will be developing as a team
+during the next three weeks.
+
+
+
+
